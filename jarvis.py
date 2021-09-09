@@ -29,7 +29,7 @@ def wishme():
         speak("Good Afternoon sir")
     else:
         speak("Good Evening sir")
-    speak("Hey my name is indigo , how can i help you")
+    speak("Hey I am Jarvis, how can i help you")
 
 def takecommand():
     r=sr.Recognizer()
@@ -50,7 +50,7 @@ def takecommand():
 
 
 if __name__=='__main__':
-    #wishme()
+    wishme()
     while True:
         query=takecommand().lower()
 
